@@ -25,10 +25,10 @@ const HeroSection = () => {
           <p className="text-secondary font-semibold text-lg mb-4 tracking-wider uppercase">
             VuGiaTravel — Đồng hành cùng bạn
           </p>
-          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6">
+          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6 ">
             Khám Phá Thế Giới
             <br />
-            <span className="text-secondary">Trọn Vẹn Niềm Vui</span>
+            <span className="text-secondary inline-block mt-3">Trọn Vẹn Niềm Vui</span>
           </h1>
           <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto mb-8">
             Hàng trăm tour du lịch trong nước và quốc tế với mức giá tốt nhất. 

@@ -29,9 +29,9 @@ const PromoBanner = () => {
             <div>
               <h4 className="font-display font-semibold text-foreground mb-1">🔥 Ưu đãi đặc biệt!</h4>
               <p className="text-sm text-muted-foreground mb-3">
-                Giảm đến <span className="font-bold text-primary">20%</span> cho tour Trung Quốc khi đặt trước 30/04. Số lượng có hạn!
+                Giảm đến <span className="font-bold text-primary">20%</span> cho tour Hạ Long. Số lượng có hạn!
               </p>
-              <a href="#tours" onClick={() => setVisible(false)} className="btn-primary text-sm px-4 py-2 inline-block">
+              <a href="/tour/halong-2n1d" onClick={() => setVisible(false)} className="btn-primary text-sm px-4 py-2 inline-block">
                 Xem ngay
               </a>
             </div>

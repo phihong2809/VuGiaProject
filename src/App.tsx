@@ -7,6 +7,10 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import TourDetail from "./pages/TourDetail.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
+import TermsOfService from "./pages/TermsOfService.tsx";
+import PaymentGuide from "./pages/PaymentGuide.tsx";
+import CancellationPolicy from "./pages/CancellationPolicy.tsx";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +23,10 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/tour/:id" element={<TourDetail />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/payment-guide" element={<PaymentGuide />} />
+          <Route path="/cancellation-policy" element={<CancellationPolicy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

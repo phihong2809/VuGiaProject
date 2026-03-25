@@ -3,10 +3,34 @@ import { motion } from 'framer-motion';
 import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const reviews = [
-  { name: 'Nguyễn Thị Hoa', avatar: '🌸', rating: 5, tour: 'Sa Pa - Fansipan', text: 'Chuyến đi tuyệt vời! Hướng dẫn viên rất nhiệt tình, khách sạn sạch đẹp. Sẽ quay lại cùng VuGiaTravel!' },
-  { name: 'Trần Văn Minh', avatar: '🎯', rating: 5, tour: 'Bắc Kinh', text: 'Lần đầu đi Trung Quốc, mọi thứ được sắp xếp rất chu đáo. Giá hợp lý, ăn uống ngon. 10 điểm!' },
-  { name: 'Lê Phương Anh', avatar: '🌺', rating: 4, tour: 'Phú Quốc', text: 'Resort đẹp, biển trong xanh. Tour 4 đảo rất vui. Chỉ tiếc là thời gian hơi ngắn, muốn ở thêm!' },
-  { name: 'Phạm Đức Huy', avatar: '⭐', rating: 5, tour: 'Hội An - Đà Nẵng', text: 'Đà Nẵng quá đẹp! Cầu Vàng thực sự ấn tượng. Cảm ơn VuGiaTravel đã tổ chức một chuyến đi đáng nhớ.' },
+  {
+    name: 'Nguyễn Thị Hoa',
+    avatar: '🌸',
+    rating: 5,
+    tour: 'Combo Hạ Long 2N1Đ',
+    text: 'Chuyến đi rất tuyệt vời! Khách sạn Dragon Legend sạch đẹp, nhân viên nhiệt tình. Bữa tối trên du thuyền Vdream cực chill, rất đáng trải nghiệm.'
+  },
+  {
+    name: 'Trần Văn Minh',
+    avatar: '🎯',
+    rating: 5,
+    tour: 'Combo Hạ Long 2N1Đ',
+    text: 'Giá combo quá hợp lý so với dịch vụ nhận được. Phòng đẹp, buffet sáng ổn, tối đi du thuyền nghe nhạc rất thư giãn. Sẽ giới thiệu cho bạn bè.'
+  },
+  {
+    name: 'Lê Phương Anh',
+    avatar: '🌺',
+    rating: 4,
+    tour: 'Combo Hạ Long 2N1Đ',
+    text: 'Mình rất thích không khí ở Hạ Long và trải nghiệm ăn tối trên du thuyền. Khách sạn ổn, vị trí thuận tiện. Nếu ở thêm 1 đêm nữa thì quá hoàn hảo.'
+  },
+  {
+    name: 'Phạm Đức Huy',
+    avatar: '⭐',
+    rating: 5,
+    tour: 'Combo Hạ Long 2N1Đ',
+    text: 'Một chuyến nghỉ dưỡng ngắn ngày nhưng rất đáng tiền. Cảnh Hạ Long đẹp, dịch vụ chỉn chu, phù hợp cho cặp đôi hoặc gia đình đi thư giãn cuối tuần.'
+  },
 ];
 
 const Reviews = () => {

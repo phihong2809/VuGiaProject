@@ -119,8 +119,8 @@ const TourDetail = () => {
               <a href="#contact-detail" className="btn-primary w-full text-center block mb-3">
                 Đặt tour ngay
               </a>
-              <a href="tel:19001234" className="btn-secondary w-full text-center block">
-                Gọi tư vấn: 1900 1234
+              <a href="tel:0968267791" className="btn-secondary w-full text-center block">
+                Gọi tư vấn: 0968 267 791
               </a>
             </div>
           </div>

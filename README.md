@@ -1,3 +1,2 @@
-# Welcome to your Lovable project
-
-TODO: Document your project here
+# Welcome to VUGia website
+ This is landing page created by Hongnp.

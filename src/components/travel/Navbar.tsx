@@ -31,22 +31,41 @@ const Navbar = () => {
           <a href="#home" className={`font-medium transition-colors ${isScrolled ? 'text-foreground hover:text-primary' : 'text-primary-foreground/90 hover:text-primary-foreground'}`}>
             Trang chủ
           </a>
-          <div className="relative" onMouseEnter={() => setIsDropdownOpen(true)} onMouseLeave={() => setIsDropdownOpen(false)}>
-            <button className={`font-medium transition-colors flex items-center gap-1 ${isScrolled ? 'text-foreground hover:text-primary' : 'text-primary-foreground/90 hover:text-primary-foreground'}`}>
-              Danh sách tour <ChevronDown className="w-4 h-4" />
-            </button>
-            {isDropdownOpen && (
-              <div className="absolute top-full left-0 mt-2 bg-card rounded-lg shadow-lg border border-border p-2 min-w-[200px]">
-                <a href="#tours" className="block px-4 py-2 rounded-md text-foreground hover:bg-accent transition-colors">
-                  🇻🇳 Du lịch trong nước
-                </a>
-                <a href="#tours" className="block px-4 py-2 rounded-md text-foreground hover:bg-accent transition-colors">
-                  🇨🇳 Du lịch Trung Quốc
-                </a>
-              </div>
-            )}
-          </div>
-          <a href="#reviews" className={`font-medium transition-colors ${isScrolled ? 'text-foreground hover:text-primary' : 'text-primary-foreground/90 hover:text-primary-foreground'}`}>
+          <div
+  className="relative"
+  onMouseEnter={() => setIsDropdownOpen(true)}
+  onMouseLeave={() => setIsDropdownOpen(false)}
+>
+  <button
+    className={`font-medium transition-colors flex items-center gap-1 ${
+      isScrolled
+        ? 'text-foreground hover:text-primary'
+        : 'text-primary-foreground/90 hover:text-primary-foreground'
+    }`}
+  >
+    Danh sách tour <ChevronDown className="w-4 h-4" />
+  </button>
+
+  {isDropdownOpen && (
+    <div className="absolute top-full left-0 pt-2 z-50">
+      <div className="bg-card rounded-lg shadow-lg border border-border p-2 min-w-[220px]">
+        <a
+          href="#tours"
+          className="block px-4 py-2 rounded-md text-foreground hover:bg-accent transition-colors"
+        >
+          🇻🇳 Du lịch trong nước
+        </a>
+        <a
+          href="#tours"
+          className="block px-4 py-2 rounded-md text-foreground hover:bg-accent transition-colors"
+        >
+          🇨🇳 Du lịch Trung Quốc
+        </a>
+      </div>
+    </div>
+  )}
+</div>
+          <a href="/#reviews" className={`font-medium transition-colors ${isScrolled ? 'text-foreground hover:text-primary' : 'text-primary-foreground/90 hover:text-primary-foreground'}`}>
             Đánh giá
           </a>
           <a href="#contact" className={`font-medium transition-colors ${isScrolled ? 'text-foreground hover:text-primary' : 'text-primary-foreground/90 hover:text-primary-foreground'}`}>
@@ -67,12 +86,12 @@ const Navbar = () => {
       {isMobileOpen && (
         <div className="md:hidden glass-effect border-t border-border">
           <div className="container mx-auto px-4 py-4 flex flex-col gap-3">
-            <a href="#home" onClick={() => setIsMobileOpen(false)} className="py-2 text-foreground font-medium">Trang chủ</a>
-            <a href="#tours" onClick={() => setIsMobileOpen(false)} className="py-2 text-foreground font-medium">🇻🇳 Du lịch trong nước</a>
-            <a href="#tours" onClick={() => setIsMobileOpen(false)} className="py-2 text-foreground font-medium">🇨🇳 Du lịch Trung Quốc</a>
-            <a href="#reviews" onClick={() => setIsMobileOpen(false)} className="py-2 text-foreground font-medium">Đánh giá</a>
-            <a href="#contact" onClick={() => setIsMobileOpen(false)} className="py-2 text-foreground font-medium">Liên hệ</a>
-            <a href="#contact" className="btn-primary text-center mt-2">Đặt tour ngay</a>
+            <a href="/#home" onClick={() => setIsMobileOpen(false)} className="py-2 text-foreground font-medium">Trang chủ</a>
+            <a href="/#tours" onClick={() => setIsMobileOpen(false)} className="py-2 text-foreground font-medium">🇻🇳 Du lịch trong nước</a>
+            <a href="/#tours" onClick={() => setIsMobileOpen(false)} className="py-2 text-foreground font-medium">🇨🇳 Du lịch Trung Quốc</a>
+            <a href="/#reviews" onClick={() => setIsMobileOpen(false)} className="py-2 text-foreground font-medium">Đánh giá</a>
+            <a href="/#contact" onClick={() => setIsMobileOpen(false)} className="py-2 text-foreground font-medium">Liên hệ</a>
+            <a href="/#contact" className="btn-primary text-center mt-2">Đặt tour ngay</a>
           </div>
         </div>
       )}

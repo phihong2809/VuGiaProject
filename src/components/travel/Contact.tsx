@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { FaTiktok } from "react-icons/fa";
 import { motion } from 'framer-motion';
 import { Phone, Mail, MapPin, Send, Facebook, MessageCircle } from 'lucide-react';
 import { toast } from 'sonner';
@@ -14,6 +15,8 @@ const Contact = () => {
       toast.success('Gửi yêu cầu thành công! Chúng tôi sẽ liên hệ bạn sớm nhất.');
       setForm({ name: '', phone: '', email: '', destination: '', message: '' });
       setSending(false);
+      // Mở Zalo với số hotline
+      window.open('https://zalo.me/0968267791', '_blank');
     }, 1000);
   };
 
@@ -43,7 +46,17 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Hotline</div>
-                  <div className="font-semibold text-foreground">1900 1234</div>
+                  <div className="font-semibold text-foreground">0968.267.791 
+</div>
+                </div>
+              </div>
+               <div className="flex items-center gap-3">
+                <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
+                  <FaTiktok  className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <div className="text-sm text-muted-foreground">TikTok</div>
+                  <div className="font-semibold text-foreground">Vũ Gia Travel</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -52,7 +65,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Email</div>
-                  <div className="font-semibold text-foreground">info@vugiatravel.vn</div>
+                  <div className="font-semibold text-foreground">vugiatravel2024@gmail.com</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -61,19 +74,34 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Văn phòng</div>
-                  <div className="font-semibold text-foreground">123 Nguyễn Huệ, Q.1, TP.HCM</div>
+                  <div className="font-semibold text-foreground">Căn Ha10-5 Khu Little Việt Nam, Phường Bãi Cháy, Tỉnh Quảng Ninh, Việt Nam</div>
                 </div>
               </div>
             </div>
 
             <h4 className="font-semibold text-foreground mb-3">Theo dõi chúng tôi</h4>
             <div className="flex gap-3">
-              {[Facebook, MessageCircle].map((Icon, i) => (
-                <a key={i} href="#" className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
-                  <Icon className="w-5 h-5" />
-                </a>
-              ))}
-            </div>
+  {[
+    {
+      icon: Facebook,
+      href: "https://www.facebook.com/profile.php?id=61577515502397&sk=directory_communities",
+    },
+    {
+      icon: MessageCircle,
+      href: "https://zalo.me/0968267791",
+    },
+  ].map(({ icon: Icon, href }, i) => (
+    <a
+      key={i}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
+    >
+      <Icon className="w-5 h-5" />
+    </a>
+  ))}
+</div>
           </motion.div>
 
           <motion.form
@@ -112,11 +140,12 @@ const Contact = () => {
               className="w-full bg-muted border border-border rounded-lg px-4 py-3 text-foreground focus:ring-2 focus:ring-ring outline-none"
             >
               <option value="">Chọn điểm đến quan tâm</option>
-              <option>Sa Pa</option>
+              <option>Hạ Long</option>
+               {/* <option>Sa Pa</option>
               <option>Đà Nẵng - Hội An</option>
               <option>Phú Quốc</option>
               <option>Bắc Kinh</option>
-              <option>Thượng Hải</option>
+              <option>Thượng Hải</option> */}
             </select>
             <textarea
               rows={3}
