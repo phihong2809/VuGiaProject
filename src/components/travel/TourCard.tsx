@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { MapPin, Clock, Star } from 'lucide-react';
 import { Tour, formatPrice } from '@/data/tours';
 
-const TourCard = ({ tour }: { tour: Tour }) => {
+const TourCard = ({ tour, routePrefix = '/tour' }: { tour: Tour; routePrefix?: string }) => {
   const hasDiscount = tour.originalPrice && tour.originalPrice > tour.price;
   const discountPercent = hasDiscount
     ? Math.round(((tour.originalPrice! - tour.price) / tour.originalPrice!) * 100)
@@ -12,7 +12,7 @@ const TourCard = ({ tour }: { tour: Tour }) => {
     <div className="card-tour group">
       <div className="relative overflow-hidden aspect-[4/3]">
         <img
-          src={tour.image}
+          src={tour.images[0]}
           alt={tour.name}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
         />
@@ -48,7 +48,7 @@ const TourCard = ({ tour }: { tour: Tour }) => {
               <div className="text-muted-foreground text-sm line-through">{formatPrice(tour.originalPrice!)}</div>
             )}
           </div>
-          <Link to={`/tour/${tour.id}`} className="btn-primary text-sm px-4 py-2">
+          <Link to={`${routePrefix}/${tour.id}`} className="btn-primary text-sm px-4 py-2">
             Đặt tour
           </Link>
         </div>

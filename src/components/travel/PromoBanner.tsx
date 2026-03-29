@@ -15,7 +15,7 @@ const PromoBanner = () => {
         exit={{ y: 100, opacity: 0 }}
         className="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:bottom-6 md:max-w-sm z-50"
       >
-        <div className="bg-card rounded-xl border border-border p-5 relative" style={{ boxShadow: 'var(--shadow-elevated)' }}>
+        {/* <div className="bg-card rounded-xl border border-border p-5 relative" style={{ boxShadow: 'var(--shadow-elevated)' }}>
           <button
             onClick={() => setVisible(false)}
             className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center text-muted-foreground hover:text-foreground"
@@ -36,7 +36,7 @@ const PromoBanner = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </motion.div>
     </AnimatePresence>
   );

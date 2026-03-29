@@ -6,6 +6,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 
 import Index from "./pages/Index.tsx";
 import TourDetail from "./pages/TourDetail.tsx";
+import CruiseList from "./pages/CruiseList.tsx";
+import CruiseDetail from "./pages/CruiseDetail.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
 import TermsOfService from "./pages/TermsOfService.tsx";
@@ -23,6 +25,8 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/tour/:id" element={<TourDetail />} />
+          <Route path="/cruise" element={<CruiseList />} />
+          <Route path="/cruise/:id" element={<CruiseDetail />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/payment-guide" element={<PaymentGuide />} />

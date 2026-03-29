@@ -1,4 +1,14 @@
 import tourHaLong from '@/assets/vongquaymattroi.jpg';
+import heroHaLong from '@/assets/hero-halong.jpg';
+import mountainHaLong from '@/assets/halong-moutain.jpg';
+import bridgeHaLong from '@/assets/cau-halong.jpg';
+import islandHaLong from '@/assets/daohalong.jpg';
+import monan1 from '@/assets/monan1.jpg';
+import monan2 from '@/assets/monan2.jpg';
+import monantrentau from '@/assets/monantrentau.jpg';
+import nhahang from '@/assets/nhahang.jpg';
+import nhahang1 from '@/assets/nhahang1.jpg';
+import nhahang2 from '@/assets/nhahang2.jpg';
 import tourSapa from '@/assets/tour-sapa.jpg';
 import tourChina from '@/assets/tour-china.jpg';
 import tourHoian from '@/assets/tour-hoian.jpg';
@@ -16,7 +26,7 @@ export interface Tour {
   originalPrice?: number;
   rating: number;
   reviews: number;
-  image: string;
+  images: string[];
   description: string;
   highlights: string[];
   included: string[];
@@ -34,7 +44,7 @@ export const tours: Tour[] = [
   originalPrice: 1990000,
   rating: 4.9,
   reviews: 465,
-  image: tourHaLong,
+  images: [tourHaLong, heroHaLong, mountainHaLong, bridgeHaLong, islandHaLong, monan1, monan2, monantrentau, nhahang, nhahang1, nhahang2],
   description: 'Combo nghỉ dưỡng siêu hời tại Hạ Long với 1 đêm khách sạn Dragon Legend 4*, buffet sáng, bữa tối trên du thuyền Vdream và tiệc âm nhạc cực chill.',
   highlights: [
     'Nghỉ dưỡng khách sạn Dragon Legend Hạ Long 4*',
