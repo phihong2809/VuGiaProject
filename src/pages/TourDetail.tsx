@@ -7,12 +7,12 @@ import Navbar from '@/components/travel/Navbar';
 import Footer from '@/components/travel/Footer';
 import Contact from '@/components/travel/Contact';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, type CarouselApi } from '@/components/ui/carousel';
-import sunworldImage from '@/assets/sunworld.png';
-import banggiaImage from '@/assets/banggiasunworld.png';
-import wowpassImage from '@/assets/wowpass.png';
-import captreoImage from '@/assets/captreo.jpg';
-import troChoiImage from '@/assets/trochoi.png';
-import sunWheelImage from '@/assets/sunwheel.jpg';
+import sunworldImage from '@/assets/sunworld.webp';
+import banggiaImage from '@/assets/banggiasunworld.webp';
+import wowpassImage from '@/assets/wowpass.webp';
+import captreoImage from '@/assets/captreo.webp';
+import troChoiImage from '@/assets/trochoi.webp';
+import sunWheelImage from '@/assets/sunwheel.webp';
 
 const TourDetail = () => {
   const { id } = useParams();

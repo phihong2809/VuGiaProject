@@ -38,7 +38,7 @@ const TourCard = ({ tour, routePrefix = '/tour' }: { tour: Tour; routePrefix?: s
         <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
           <Clock className="w-3.5 h-3.5" /> {tour.duration}
           <span className="text-muted-foreground/40">•</span>
-          {tour.reviews} đánh giá
+          {tour.reviews > 0 ? `${tour.reviews} đánh giá` : 'Tư vấn miễn phí'}
         </div>
 
         <div className="flex items-center justify-between">

@@ -109,7 +109,7 @@ const CruiseDetail = () => {
             <div className="flex flex-wrap items-center gap-4 text-primary-foreground/80 text-sm">
               <span className="flex items-center gap-1"><MapPin className="w-4 h-4" /> {cruise.destination}</span>
               <span className="flex items-center gap-1"><Clock className="w-4 h-4" /> {cruise.duration}</span>
-              <span className="flex items-center gap-1"><Star className="w-4 h-4 fill-secondary text-secondary" /> 4.8 (95 đánh giá)</span>
+              <span className="flex items-center gap-1"><Star className="w-4 h-4 fill-secondary text-secondary" /> {cruise.rating ?? 5}.0 (du thuyền 5 sao)</span>
             </div>
           </div>
         </div>
@@ -180,14 +180,29 @@ const CruiseDetail = () => {
               <h2 className="font-display text-2xl font-bold text-foreground mb-4">Lịch trình</h2>
               <div className="space-y-4">
                 {cruise.itinerary.map((item) => (
-                  <div key={item.day} className="flex gap-4">
+                  <div key={`${item.day}-${item.title}`} className="flex gap-4">
                     <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center flex-shrink-0">
                       <Calendar className="w-5 h-5 text-primary" />
                     </div>
-                    <div>
-                      <h4 className="font-semibold text-foreground">Ngày {item.day}: {item.title}</h4>
-                      <p className="text-muted-foreground text-sm">{item.activities?.join(' • ') || ''}</p>
+                    <div className="flex-1">
+                      <h4 className="font-semibold text-foreground">Mục {item.day}: {item.title}</h4>
+                      <ul className="mt-2 space-y-2 text-sm text-muted-foreground list-disc pl-5">
+                        {item.activities?.map((activity, index) => (
+                          <li key={`${item.day}-${index}`}>{activity}</li>
+                        ))}
+                      </ul>
                     </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h2 className="font-display text-2xl font-bold text-foreground mb-3">Lưu ý</h2>
+              <div className="space-y-2">
+                {cruise.notes.map((note) => (
+                  <div key={note} className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+                    {note}
                   </div>
                 ))}
               </div>

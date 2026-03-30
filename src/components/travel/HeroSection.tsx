@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ChevronDown, MapPin, Users, Star } from 'lucide-react';
-import heroImage from '@/assets/hero-halong.jpg';
+import heroImage from '@/assets/hero-halong.webp';
 
 const stats = [
   { icon: MapPin, value: '50+', label: 'Điểm đến' },

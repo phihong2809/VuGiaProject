@@ -1,5 +1,5 @@
 import { Facebook, MessageCircle, Phone } from 'lucide-react';
-import logo from '@/assets/logo-vugiatravel.png';
+import logo from '@/assets/logo-vugiatravel.webp';
 import { FaTiktok } from 'react-icons/fa';
 
 const Footer = () => (

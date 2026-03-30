@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "./", // 👈 THÊM DÒNG NÀY (QUAN TRỌNG NHẤT)
+  base: "./", // 👈 THÊM DÒNG NÀY (QUAN TRỌNG NHẤT)123123
 
   server: {
     host: "::",
