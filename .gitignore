@@ -2,7 +2,3 @@
 dist/
 .vercel/
 .env
-node_modules/
-dist/
-.vercel/
-.env
