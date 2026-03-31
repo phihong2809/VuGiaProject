@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['Cormorant Garamond', 'serif'],
-        body: ['Manrope', 'sans-serif'],
+        display: ['Be Vietnam Pro', 'sans-serif'],
+        body: ['Be Vietnam Pro', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

@@ -88,7 +88,7 @@ const CruiseList = () => {
 
                 <ul className="mb-6 space-y-2 text-sm text-foreground">
                   <li className="flex items-center gap-2"><Check className="h-4 w-4 text-primary" /> Khởi hành hàng tuần</li>
-                  <li className="flex items-center gap-2"><Check className="h-4 w-4 text-primary" /> Bảo hiểm du lịch</li>
+                  
                   <li className="flex items-center gap-2"><Check className="h-4 w-4 text-primary" /> Hỗ trợ 24/7</li>
                 </ul>
 
@@ -102,6 +102,7 @@ const CruiseList = () => {
                     <a href="https://zalo.me/0972223394" className="block text-primary hover:underline">Tư vấn viên Tân: 0972 223 394</a>
                     <a href="https://zalo.me/0968267791" className="block text-primary hover:underline">Tư vấn viên Hoài Nam: 0968 267 791</a>
                     <a href="https://zalo.me/0345519505" className="block text-primary hover:underline">Tư vấn viên Hoàng Anh: 0345 519 505</a>
+                    <a href="https://zalo.me/0389056861" className="block text-primary hover:underline">Tư vấn viên Thọ Nguyễn: 0389 056 861</a>
                     <a href="https://zalo.me/0365226085" className="block text-primary hover:underline">Tư vấn viên Thành Dương: 0365 226 085</a>
                     <a href="https://zalo.me/0358006668" className="block text-primary hover:underline">Tư vấn viên Mạnh Cường: 0358 006 668</a>
                   </div>

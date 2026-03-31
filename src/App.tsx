@@ -8,6 +8,8 @@ import Index from "./pages/Index.tsx";
 import TourDetail from "./pages/TourDetail.tsx";
 import CruiseList from "./pages/CruiseList.tsx";
 import CruiseDetail from "./pages/CruiseDetail.tsx";
+import HotelList from "./pages/HotelList.tsx";
+import HotelDetail from "./pages/HotelDetail.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
 import TermsOfService from "./pages/TermsOfService.tsx";
@@ -27,6 +29,8 @@ const App = () => (
           <Route path="/tour/:id" element={<TourDetail />} />
           <Route path="/cruise" element={<CruiseList />} />
           <Route path="/cruise/:id" element={<CruiseDetail />} />
+          <Route path="/hotel" element={<HotelList />} />
+          <Route path="/hotel/:id" element={<HotelDetail />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/payment-guide" element={<PaymentGuide />} />

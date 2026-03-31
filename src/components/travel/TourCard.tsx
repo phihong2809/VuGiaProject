@@ -2,7 +2,15 @@ import { Link } from 'react-router-dom';
 import { MapPin, Clock, Star } from 'lucide-react';
 import { Tour, formatPrice } from '@/data/tours';
 
-const TourCard = ({ tour, routePrefix = '/tour' }: { tour: Tour; routePrefix?: string }) => {
+const TourCard = ({
+  tour,
+  routePrefix = '/tour',
+  ctaLabel = 'Đặt tour',
+}: {
+  tour: Tour;
+  routePrefix?: string;
+  ctaLabel?: string;
+}) => {
   const hasDiscount = tour.originalPrice && tour.originalPrice > tour.price;
   const discountPercent = hasDiscount
     ? Math.round(((tour.originalPrice! - tour.price) / tour.originalPrice!) * 100)
@@ -49,7 +57,7 @@ const TourCard = ({ tour, routePrefix = '/tour' }: { tour: Tour; routePrefix?: s
             )}
           </div>
           <Link to={`${routePrefix}/${tour.id}`} className="btn-primary text-sm px-4 py-2">
-            Đặt tour
+            {ctaLabel}
           </Link>
         </div>
       </div>

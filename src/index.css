@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 
 @layer base {
   :root {
@@ -35,16 +33,16 @@
     --input: 40 15% 88%;
     --ring: 174 62% 32%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
-    --gradient-hero: linear-gradient(135deg, hsla(174, 62%, 32%, 0.85), hsla(200, 50%, 15%, 0.15));
+    --gradient-hero: linear-gradient(135deg, hsla(174, 62%, 32%, 0.88), hsla(201, 80%, 18%, 0.24));
     --gradient-gold: linear-gradient(135deg, hsl(40, 60%, 50%), hsl(35, 70%, 55%));
     --gradient-card: linear-gradient(180deg, hsl(0, 0%, 100%), hsl(40, 20%, 97%));
-    --shadow-card: 0 4px 24px -4px hsla(200, 25%, 12%, 0.08);
-    --shadow-elevated: 0 12px 40px -8px hsla(200, 25%, 12%, 0.15);
+    --shadow-card: 0 14px 38px -22px hsla(200, 25%, 12%, 0.24);
+    --shadow-elevated: 0 20px 48px -24px hsla(200, 25%, 12%, 0.28);
 
-    --font-display: 'Cormorant Garamond', serif;
-    --font-body: 'Manrope', sans-serif;
+    --font-display: 'Be Vietnam Pro', sans-serif;
+    --font-body: 'Be Vietnam Pro', sans-serif;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -85,71 +83,107 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
-}
 
-@layer base {
   html {
     scroll-behavior: smooth;
   }
 
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
   body {
     @apply bg-background text-foreground antialiased;
+    background-image:
+      radial-gradient(circle at top right, rgba(16, 185, 129, 0.08), transparent 24%),
+      radial-gradient(circle at left top, rgba(14, 165, 233, 0.08), transparent 22%);
     font-family: var(--font-body);
-    line-height: 1.6;
-    letter-spacing: -0.01em;
+    font-feature-settings: 'ss01' 1;
+    line-height: 1.65;
+    letter-spacing: -0.012em;
+    text-rendering: optimizeLegibility;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-display);
-    letter-spacing: -0.025em;
+    letter-spacing: -0.03em;
   }
 
-  button, input, select, textarea {
+  button,
+  input,
+  select,
+  textarea,
+  a {
     font-family: var(--font-body);
+  }
+
+  ::selection {
+    background: hsla(174, 62%, 32%, 0.18);
+    color: hsl(var(--foreground));
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold transition-all duration-300;
-    box-shadow: 0 4px 14px -3px hsla(174, 62%, 32%, 0.4);
+    background: linear-gradient(135deg, hsl(174 62% 32%), hsl(191 78% 39%));
+    @apply inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold text-primary-foreground transition-all duration-300;
+    box-shadow: 0 16px 34px -18px hsla(174, 62%, 32%, 0.85);
   }
+
   .btn-primary:hover {
-    @apply opacity-90 scale-105;
-    box-shadow: 0 6px 20px -3px hsla(174, 62%, 32%, 0.5);
+    transform: translateY(-1px);
+    box-shadow: 0 20px 36px -18px hsla(174, 62%, 32%, 0.95);
+    filter: saturate(1.06);
   }
 
   .btn-secondary {
     background: var(--gradient-gold);
-    @apply text-secondary-foreground px-6 py-3 rounded-lg font-semibold transition-all duration-300;
-    box-shadow: 0 4px 14px -3px hsla(40, 60%, 50%, 0.4);
+    @apply inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold text-secondary-foreground transition-all duration-300;
+    box-shadow: 0 16px 34px -20px hsla(40, 60%, 50%, 0.65);
   }
+
   .btn-secondary:hover {
-    @apply opacity-90 scale-105;
+    transform: translateY(-1px);
+    box-shadow: 0 20px 36px -20px hsla(40, 60%, 50%, 0.8);
   }
 
   .hide-scrollbar {
     scrollbar-width: none;
     -ms-overflow-style: none;
   }
+
   .hide-scrollbar::-webkit-scrollbar {
     display: none;
   }
 
   .card-tour {
-    @apply bg-card rounded-xl overflow-hidden transition-all duration-300;
+    @apply overflow-hidden rounded-2xl border border-white/70 bg-card transition-all duration-300;
     box-shadow: var(--shadow-card);
   }
+
   .card-tour:hover {
-    box-shadow: var(--shadow-elevated);
     @apply -translate-y-1;
+    box-shadow: var(--shadow-elevated);
   }
 
   .section-padding {
-    @apply py-16 md:py-24 px-4 md:px-8;
+    @apply px-4 py-16 md:px-8 md:py-24;
   }
 
   .glass-effect {
-    @apply bg-card/80 backdrop-blur-md border border-border/50;
+    @apply border border-border/50 bg-card/80 backdrop-blur-md;
+  }
+
+  .nav-shell {
+    @apply rounded-[24px] border border-white/80 bg-white/85 backdrop-blur-2xl;
+    box-shadow: 0 18px 40px -26px rgba(15, 23, 42, 0.4);
   }
 }
+
