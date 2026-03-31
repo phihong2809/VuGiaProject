@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { X, Gift } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { Gift, MessageCircle, X } from 'lucide-react';
+import { AnimatePresence, motion } from 'framer-motion';
 
 const PromoBanner = () => {
   const [visible, setVisible] = useState(true);
@@ -13,30 +13,32 @@ const PromoBanner = () => {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 100, opacity: 0 }}
-        className="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:bottom-6 md:max-w-sm z-50"
+        className="fixed bottom-4 left-4 right-4 z-50 md:left-auto md:right-6 md:max-w-sm"
       >
-        {/* <div className="bg-card rounded-xl border border-border p-5 relative" style={{ boxShadow: 'var(--shadow-elevated)' }}>
+        <div className="relative rounded-2xl border border-slate-200 bg-white/95 p-4 backdrop-blur-xl" style={{ boxShadow: 'var(--shadow-elevated)' }}>
           <button
             onClick={() => setVisible(false)}
-            className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center text-muted-foreground hover:text-foreground"
+            className="absolute right-2 top-2 flex h-7 w-7 items-center justify-center rounded-full text-muted-foreground transition hover:bg-slate-100 hover:text-foreground"
+            aria-label="Đóng thông báo"
           >
-            <X className="w-4 h-4" />
+            <X className="h-4 w-4" />
           </button>
-          <div className="flex items-start gap-3">
-            <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style={{ background: 'var(--gradient-gold)' }}>
-              <Gift className="w-5 h-5 text-secondary-foreground" />
+
+          <div className="flex items-start gap-3 pr-6">
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-primary">
+              <Gift className="h-5 w-5" />
             </div>
             <div>
-              <h4 className="font-display font-semibold text-foreground mb-1">🔥 Ưu đãi đặc biệt!</h4>
-              <p className="text-sm text-muted-foreground mb-3">
-                Giảm đến <span className="font-bold text-primary">20%</span> cho tour Hạ Long. Số lượng có hạn!
+              <h4 className="mb-1 font-semibold text-foreground">Cần báo giá nhanh?</h4>
+              <p className="mb-3 text-sm leading-relaxed text-muted-foreground">
+                Nhắn Zalo để được tư vấn tour, du thuyền hoặc khách sạn phù hợp ngân sách của bạn.
               </p>
-              <a href="/tour/halong-2n1d" onClick={() => setVisible(false)} className="btn-primary text-sm px-4 py-2 inline-block">
-                Xem ngay
+              <a href="https://zalo.me/0968267791" target="_blank" rel="noopener noreferrer" className="btn-primary rounded-full px-4 py-2 text-sm">
+                <MessageCircle className="mr-2 h-4 w-4" /> Nhắn Zalo ngay
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </motion.div>
     </AnimatePresence>
   );

@@ -1,0 +1,367 @@
+
+> vite_react_shadcn_ts@0.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 2450 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                                [39m[1m[2m  1.19 kB[22m[1m[22m[2m │ gzip:   0.50 kB[22m
+[2mdist/[22m[32massets/octopus1-uyNYEavR.webp             [39m[1m[2m 10.38 kB[22m[1m[22m
+[2mdist/[22m[32massets/wowpass-DrPGRra0.webp              [39m[1m[2m 26.14 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtoctopus-i32ZPJ_C.webp           [39m[1m[2m 28.58 kB[22m[1m[22m
+[2mdist/[22m[32massets/logo-vugiatravel-D1D2rAld.webp     [39m[1m[2m 29.11 kB[22m[1m[22m
+[2mdist/[22m[32massets/octopus2-CeQWX7ZY.webp             [39m[1m[2m 30.80 kB[22m[1m[22m
+[2mdist/[22m[32massets/octopus6-ti2yy5Ba.webp             [39m[1m[2m 30.88 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh8-NDcuGzM_.jpeg          [39m[1m[2m 31.05 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona3-GYnVnvf4.webp               [39m[1m[2m 34.21 kB[22m[1m[22m
+[2mdist/[22m[32massets/octopus3-djNdHaPq.webp             [39m[1m[2m 35.04 kB[22m[1m[22m
+[2mdist/[22m[32massets/octopus4-DRpF1tJ2.webp             [39m[1m[2m 39.79 kB[22m[1m[22m
+[2mdist/[22m[32massets/ambrasador4-DcWFRd2z.webp          [39m[1m[2m 40.43 kB[22m[1m[22m
+[2mdist/[22m[32massets/octopus5-DfGmNIYI.webp             [39m[1m[2m 41.05 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtdolphin-D1Jzr_-M.webp           [39m[1m[2m 41.06 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon11-D6uLeZL-.jpeg             [39m[1m[2m 41.42 kB[22m[1m[22m
+[2mdist/[22m[32massets/luna2-Dc-7Tk_B.webp                [39m[1m[2m 42.07 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtdiamon-DjzA6O1b.webp            [39m[1m[2m 43.21 kB[22m[1m[22m
+[2mdist/[22m[32massets/luna5-CnozgfAT.webp                [39m[1m[2m 44.11 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtluna-BeRDmvK1.webp              [39m[1m[2m 44.29 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtblackpearl-BzN4PUQt.webp        [39m[1m[2m 44.55 kB[22m[1m[22m
+[2mdist/[22m[32massets/luna1-CvjfFjdE.webp                [39m[1m[2m 44.98 kB[22m[1m[22m
+[2mdist/[22m[32massets/blackpearl5-D4HiCGUZ.webp          [39m[1m[2m 45.33 kB[22m[1m[22m
+[2mdist/[22m[32massets/captreo-UpWUdymx.webp              [39m[1m[2m 45.65 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona13-CEmpPFhE.webp              [39m[1m[2m 46.44 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel16-CIzlE0vo.jpeg            [39m[1m[2m 47.58 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil19-Ny3s5bnl.jpeg       [39m[1m[2m 47.77 kB[22m[1m[22m
+[2mdist/[22m[32massets/luna3--aE4MaB8.webp                [39m[1m[2m 48.09 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil28-DW18qC_7.jpeg       [39m[1m[2m 48.56 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtambrasador-CNv69w3P.webp        [39m[1m[2m 48.74 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin16-pqT7lFvM.jpeg           [39m[1m[2m 49.01 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury11-fPuVvvEK.jpeg      [39m[1m[2m 50.09 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona1-B1R1BWFS.webp               [39m[1m[2m 50.81 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury27-BcNrJ5YN.jpeg      [39m[1m[2m 50.95 kB[22m[1m[22m
+[2mdist/[22m[32massets/beboi-DzWHDCy_.webp                [39m[1m[2m 51.51 kB[22m[1m[22m
+[2mdist/[22m[32massets/blackpearl2-BZBTlySI.webp          [39m[1m[2m 51.65 kB[22m[1m[22m
+[2mdist/[22m[32massets/tour-hoian-4XlpFaWK.webp           [39m[1m[2m 52.07 kB[22m[1m[22m
+[2mdist/[22m[32massets/saquila6-CqrKOZ1-.webp             [39m[1m[2m 52.10 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona12-CwJpNexa.webp              [39m[1m[2m 52.47 kB[22m[1m[22m
+[2mdist/[22m[32massets/tour-shanghai-CaZzzaYr.webp        [39m[1m[2m 52.92 kB[22m[1m[22m
+[2mdist/[22m[32massets/era9-DXRQaq21.jpeg                 [39m[1m[2m 53.21 kB[22m[1m[22m
+[2mdist/[22m[32massets/ambrasador1-D9-LQllV.webp          [39m[1m[2m 53.35 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona14-B4dF-KvK.webp              [39m[1m[2m 53.38 kB[22m[1m[22m
+[2mdist/[22m[32massets/trochoi-AlXLDELt.webp              [39m[1m[2m 53.42 kB[22m[1m[22m
+[2mdist/[22m[32massets/blackpearl1-JnT9PgG_.webp          [39m[1m[2m 53.79 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil25-BTOgLe0w.jpeg       [39m[1m[2m 53.89 kB[22m[1m[22m
+[2mdist/[22m[32massets/era14-c69DUIPV.jpeg                [39m[1m[2m 54.49 kB[22m[1m[22m
+[2mdist/[22m[32massets/luna6-COjNf36h.webp                [39m[1m[2m 54.68 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona9-Cx1wkAgu.webp               [39m[1m[2m 54.76 kB[22m[1m[22m
+[2mdist/[22m[32massets/dolphin6-DS7B9_18.webp             [39m[1m[2m 55.42 kB[22m[1m[22m
+[2mdist/[22m[32massets/blackpear3-Qoc0GYMh.webp           [39m[1m[2m 55.61 kB[22m[1m[22m
+[2mdist/[22m[32massets/dolphin5-p9f19pZ5.webp             [39m[1m[2m 55.67 kB[22m[1m[22m
+[2mdist/[22m[32massets/dolphin3-CRnDzRed.webp             [39m[1m[2m 55.75 kB[22m[1m[22m
+[2mdist/[22m[32massets/paradise4-CmXoWA3I.webp            [39m[1m[2m 56.26 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil16-t-VexiCe.jpeg       [39m[1m[2m 57.72 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel8-Wf8WPokf.jpeg             [39m[1m[2m 57.78 kB[22m[1m[22m
+[2mdist/[22m[32massets/tour-danang-DELsoqLN.webp          [39m[1m[2m 57.96 kB[22m[1m[22m
+[2mdist/[22m[32massets/dolphin8-DYNSQolv.webp             [39m[1m[2m 58.33 kB[22m[1m[22m
+[2mdist/[22m[32massets/ambrasador2-C9-b7KeL.webp          [39m[1m[2m 58.71 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand33-C02U5VJV.jpeg    [39m[1m[2m 59.27 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil23-Bji5sC7p.jpeg       [39m[1m[2m 59.43 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil29-1Mf8ydHN.jpeg       [39m[1m[2m 59.54 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel18-ChTmLg5d.jpeg            [39m[1m[2m 59.56 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil22-Dx6OqBtj.jpeg       [39m[1m[2m 59.63 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil18-CAeVU7wj.jpeg       [39m[1m[2m 59.74 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte3-DWHy7ALX.jpeg                 [39m[1m[2m 59.91 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel6-D2e_NdYx.jpeg             [39m[1m[2m 59.92 kB[22m[1m[22m
+[2mdist/[22m[32massets/dolphin1-TShZHUHM.webp             [39m[1m[2m 60.04 kB[22m[1m[22m
+[2mdist/[22m[32massets/tour-phuquoc-CM17Tv0z.webp         [39m[1m[2m 60.10 kB[22m[1m[22m
+[2mdist/[22m[32massets/saquila4-C-1D2SNZ.webp             [39m[1m[2m 60.49 kB[22m[1m[22m
+[2mdist/[22m[32massets/luna4-CNTZU0Ge.webp                [39m[1m[2m 60.77 kB[22m[1m[22m
+[2mdist/[22m[32massets/saquila5-XTMgQeKY.webp             [39m[1m[2m 61.41 kB[22m[1m[22m
+[2mdist/[22m[32massets/sunworld-D3eiSALX.webp             [39m[1m[2m 61.58 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand28-BFLGDprO.jpeg    [39m[1m[2m 61.79 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona4-DatNKuPG.webp               [39m[1m[2m 62.43 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona11-CT7MUsZj.webp              [39m[1m[2m 62.49 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte14-BKSJ9dYP.jpeg                [39m[1m[2m 62.83 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel2-BR9UFG__.jpeg             [39m[1m[2m 62.83 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtleona-EqXhlHcy.webp             [39m[1m[2m 63.29 kB[22m[1m[22m
+[2mdist/[22m[32massets/paradise7-COEQTsG9.webp            [39m[1m[2m 64.07 kB[22m[1m[22m
+[2mdist/[22m[32massets/symphony2-MCMjQb5m.webp            [39m[1m[2m 64.21 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand31-BTRaJYGR.jpeg    [39m[1m[2m 64.32 kB[22m[1m[22m
+[2mdist/[22m[32massets/saquila3-rSdoKNEs.webp             [39m[1m[2m 65.03 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtsympony-ov1jA1YC.webp           [39m[1m[2m 65.25 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona5-D2E1aXnG.webp               [39m[1m[2m 65.43 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury9-IV0YsRS7.jpeg    [39m[1m[2m 65.51 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte13-BzENFkrT.jpeg                [39m[1m[2m 65.52 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc2-4RmS6Kp9.jpeg             [39m[1m[2m 65.58 kB[22m[1m[22m
+[2mdist/[22m[32massets/blackpearl6-B6hsGp6h.webp          [39m[1m[2m 65.64 kB[22m[1m[22m
+[2mdist/[22m[32massets/diamon4-BowE1EIT.webp              [39m[1m[2m 65.86 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel9-BjwOscBQ.jpeg             [39m[1m[2m 66.10 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc13-BP9cNZVZ.jpeg            [39m[1m[2m 66.26 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil7-CCp1m5iB.jpeg        [39m[1m[2m 66.86 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtsongloc-C1KQyMuO.jpeg           [39m[1m[2m 66.99 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh1-Bj73pAen.jpeg          [39m[1m[2m 67.11 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtparadise-Dd9guUCG.webp          [39m[1m[2m 67.21 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil17-D2zqt711.jpeg       [39m[1m[2m 67.27 kB[22m[1m[22m
+[2mdist/[22m[32massets/era11-C7r0X-gq.jpeg                [39m[1m[2m 67.38 kB[22m[1m[22m
+[2mdist/[22m[32massets/octopus8-B6ehnGa6.webp             [39m[1m[2m 67.48 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand26--_QSQjEQ.jpeg    [39m[1m[2m 67.58 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand2-3IvaUC0h.jpeg     [39m[1m[2m 67.90 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury24-v6OUgwth.jpeg      [39m[1m[2m 68.05 kB[22m[1m[22m
+[2mdist/[22m[32massets/dolphin2-CeS8w_99.webp             [39m[1m[2m 68.06 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand25-B-ZG22GR.jpeg    [39m[1m[2m 68.18 kB[22m[1m[22m
+[2mdist/[22m[32massets/duthuyen-CFQwqayk.webp             [39m[1m[2m 68.35 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh11-3fb_6zn6.jpeg         [39m[1m[2m 68.35 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel11-GnZn7C4c.jpeg            [39m[1m[2m 68.39 kB[22m[1m[22m
+[2mdist/[22m[32massets/tour-china-mUaNgZ2O.webp           [39m[1m[2m 68.74 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtera-PAOCGSWw.jpeg               [39m[1m[2m 69.27 kB[22m[1m[22m
+[2mdist/[22m[32massets/tour-sapa-DgJUk8zB.webp            [39m[1m[2m 69.39 kB[22m[1m[22m
+[2mdist/[22m[32massets/dolphin7-DONGP8Wb.webp             [39m[1m[2m 69.47 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil6-BZ7reuhF.jpeg        [39m[1m[2m 69.70 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand29-CCzSBMST.jpeg    [39m[1m[2m 70.14 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc12-BU1M9WGJ.jpeg            [39m[1m[2m 70.25 kB[22m[1m[22m
+[2mdist/[22m[32massets/dolphin4-Dm42hF5L.webp             [39m[1m[2m 70.48 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel17-Bk1ctqYC.jpeg            [39m[1m[2m 70.65 kB[22m[1m[22m
+[2mdist/[22m[32massets/symphony1-OFmJK9H2.webp            [39m[1m[2m 70.69 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona7-DIyYHCVJ.webp               [39m[1m[2m 71.15 kB[22m[1m[22m
+[2mdist/[22m[32massets/paradise2-CznSzK4T.webp            [39m[1m[2m 71.45 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin2-DrCQmt4L.jpeg            [39m[1m[2m 72.06 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury33-BwJiQU-E.jpeg      [39m[1m[2m 72.21 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand24-CFfuOg7t.jpeg    [39m[1m[2m 72.34 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona2-s7V9Pvds.webp               [39m[1m[2m 73.23 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtcentralluxury-DMG35Afo.jpeg     [39m[1m[2m 73.63 kB[22m[1m[22m
+[2mdist/[22m[32massets/symphony3-C4vzjiAa.webp            [39m[1m[2m 73.83 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury26-CgDeHdz4.jpeg      [39m[1m[2m 74.08 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh5-D2XxVXuA.jpeg          [39m[1m[2m 74.71 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc1-DzIQ_OV0.jpeg             [39m[1m[2m 74.71 kB[22m[1m[22m
+[2mdist/[22m[32massets/era1-Cc3G0qAK.jpeg                 [39m[1m[2m 74.97 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil21-D752Kp1Q.jpeg       [39m[1m[2m 75.12 kB[22m[1m[22m
+[2mdist/[22m[32massets/diamon3-ClvO4c__.webp              [39m[1m[2m 75.34 kB[22m[1m[22m
+[2mdist/[22m[32massets/era2-C2bWWK7g.jpeg                 [39m[1m[2m 75.35 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc10-B55yZ7p2.jpeg            [39m[1m[2m 75.96 kB[22m[1m[22m
+[2mdist/[22m[32massets/banggiasunworld-BCpeNMon.webp      [39m[1m[2m 76.59 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury10-BNCMwZKM.jpeg      [39m[1m[2m 76.62 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh2-CnJUVjkK.jpeg          [39m[1m[2m 76.68 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil24-BwIfFWDR.jpeg       [39m[1m[2m 76.78 kB[22m[1m[22m
+[2mdist/[22m[32massets/ambrasador5-D7chH0jU.webp          [39m[1m[2m 77.06 kB[22m[1m[22m
+[2mdist/[22m[32massets/octppus4-idyEOfV7.webp             [39m[1m[2m 77.26 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury29-D6C34pUf.jpeg      [39m[1m[2m 77.88 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury8-3yRVjNY5.jpeg    [39m[1m[2m 78.10 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury16-BF1AloDu.jpeg   [39m[1m[2m 78.48 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury22-BbilYPkm.jpeg      [39m[1m[2m 78.49 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand27-06cnFOqh.jpeg    [39m[1m[2m 79.02 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtdragon-BUDD0C1v.jpeg            [39m[1m[2m 79.07 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh12-CH9R3KDp.jpeg         [39m[1m[2m 79.10 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin8-NMblSloL.jpeg            [39m[1m[2m 79.12 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand5-Bw_Ceihk.jpeg     [39m[1m[2m 79.23 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil9-B6h83lhE.jpeg        [39m[1m[2m 79.57 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand8-DmGFxXZa.jpeg     [39m[1m[2m 79.86 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte9-Bvx3n2zT.jpeg                 [39m[1m[2m 79.99 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil3-C7bTCilD.jpeg        [39m[1m[2m 80.36 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand1-BDgsf1Tj.jpeg     [39m[1m[2m 80.39 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte11-CG8dCyh2.jpeg                [39m[1m[2m 80.54 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtfte-DwpZbPA9.jpeg               [39m[1m[2m 80.60 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury1-PdI3dFSk.jpeg    [39m[1m[2m 80.68 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin13-D-kUjAvz.jpeg           [39m[1m[2m 80.84 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury25-BNXhc0Lp.jpeg      [39m[1m[2m 81.05 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc14-DeERw01g.jpeg            [39m[1m[2m 81.61 kB[22m[1m[22m
+[2mdist/[22m[32massets/paradise3-B-IVk8Hq.webp            [39m[1m[2m 81.66 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona8-DS9ABywT.webp               [39m[1m[2m 81.78 kB[22m[1m[22m
+[2mdist/[22m[32massets/era12-Cvv8YTU5.jpeg                [39m[1m[2m 82.31 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona6-Dcv3PiyL.webp               [39m[1m[2m 83.26 kB[22m[1m[22m
+[2mdist/[22m[32massets/paradise1-DY_UBHdq.webp            [39m[1m[2m 83.71 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand32-CO1-cdV9.jpeg    [39m[1m[2m 83.87 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury28-CjYgbYQg.jpeg      [39m[1m[2m 83.99 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin9-CRwpQT98.jpeg            [39m[1m[2m 84.03 kB[22m[1m[22m
+[2mdist/[22m[32massets/era8-Doo7uXdD.jpeg                 [39m[1m[2m 84.94 kB[22m[1m[22m
+[2mdist/[22m[32massets/sunwheel-KkkF_BjF.webp             [39m[1m[2m 85.34 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury18-lwPzRaR-.jpeg      [39m[1m[2m 85.46 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte10-9zylntMB.jpeg                [39m[1m[2m 86.09 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel4-YjxVH8iS.jpeg             [39m[1m[2m 86.20 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel15-DXpoCtEC.jpeg            [39m[1m[2m 87.85 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel10-DmKLodDn.jpeg            [39m[1m[2m 87.90 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury16-Cj3mR4CZ.jpeg      [39m[1m[2m 88.41 kB[22m[1m[22m
+[2mdist/[22m[32massets/leona10-DYxvWdJ7.webp              [39m[1m[2m 88.67 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin11-DG4Bt45w.jpeg           [39m[1m[2m 88.94 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury5-BkYFqL2m.jpeg    [39m[1m[2m 89.33 kB[22m[1m[22m
+[2mdist/[22m[32massets/era6-b3LklY4b.jpeg                 [39m[1m[2m 89.49 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury19-DhpLK6om.jpeg      [39m[1m[2m 89.57 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin4-JC7rO8FY.jpeg            [39m[1m[2m 89.63 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil8-BMJfRAaJ.jpeg        [39m[1m[2m 89.63 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil1-BcsI_QgB.jpeg        [39m[1m[2m 89.65 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon4-CwrVok-4.jpeg              [39m[1m[2m 89.67 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte8-CRfSqGpX.jpeg                 [39m[1m[2m 89.79 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury23-D4GkAEKD.jpeg      [39m[1m[2m 90.29 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury17-Dbsyb5z0.jpeg      [39m[1m[2m 90.40 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte7-g-25U_XC.jpeg                 [39m[1m[2m 90.49 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand16-B0CujPKX.jpeg    [39m[1m[2m 90.59 kB[22m[1m[22m
+[2mdist/[22m[32massets/diamon5-DLbIkncO.webp              [39m[1m[2m 90.91 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury20-Dja3lT2W.jpeg      [39m[1m[2m 91.11 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel7-DHdq8hVC.jpeg             [39m[1m[2m 91.24 kB[22m[1m[22m
+[2mdist/[22m[32massets/era5-tO2RskD1.jpeg                 [39m[1m[2m 92.03 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon7-DBm-9Eqp.jpeg              [39m[1m[2m 93.33 kB[22m[1m[22m
+[2mdist/[22m[32massets/saquila1-CessCOIL.webp             [39m[1m[2m 93.65 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil20-XHMg3fLk.jpeg       [39m[1m[2m 93.86 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte2-BbSKCaCq.jpeg                 [39m[1m[2m 94.21 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc17-CVs-LpMb.jpeg            [39m[1m[2m 94.31 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury13-CGR14Ani.jpeg      [39m[1m[2m 95.10 kB[22m[1m[22m
+[2mdist/[22m[32massets/era10-5aXH9SM0.jpeg                [39m[1m[2m 95.47 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury15-BOOIWIlT.jpeg      [39m[1m[2m 95.58 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury3-BG4snx7B.jpeg       [39m[1m[2m 95.59 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand17-DH-EaQZZ.jpeg    [39m[1m[2m 95.62 kB[22m[1m[22m
+[2mdist/[22m[32massets/paradise5-B4yoiY_K.webp            [39m[1m[2m 95.73 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury12-CAjBVUKE.jpeg   [39m[1m[2m 97.11 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin12-Dr9exVVO.jpeg           [39m[1m[2m 97.31 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin5-ARiIn04w.jpeg            [39m[1m[2m 97.42 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand12-lmpnw_Wu.jpeg    [39m[1m[2m 97.60 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury1-DALzEJs8.jpeg       [39m[1m[2m 97.60 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand14-CgCJkcei.jpeg    [39m[1m[2m 97.97 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand30-DEzFZHgU.jpeg    [39m[1m[2m 98.12 kB[22m[1m[22m
+[2mdist/[22m[32massets/blackpearl4-sUA8VCYC.webp          [39m[1m[2m 98.24 kB[22m[1m[22m
+[2mdist/[22m[32massets/halong-moutain-Df_yYJfO.webp       [39m[1m[2m 98.45 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte19-CD0LARsC.jpeg                [39m[1m[2m 98.65 kB[22m[1m[22m
+[2mdist/[22m[32massets/era7-D_QQDlo6.jpeg                 [39m[1m[2m 98.70 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin10-BZ4Ax9Qd.jpeg           [39m[1m[2m 98.77 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon12-BR0gul1y.jpeg             [39m[1m[2m 98.98 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel3-Bu4qts9H.jpeg             [39m[1m[2m 99.10 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin17-m0CzEXnm.jpeg           [39m[1m[2m 99.12 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury5-Bl900KN-.jpeg       [39m[1m[2m 99.34 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh9-DjwzNz8p.jpeg          [39m[1m[2m 99.42 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc8-DcUzE7T9.jpeg             [39m[1m[2m 99.51 kB[22m[1m[22m
+[2mdist/[22m[32massets/era13-BTpg9rDO.jpeg                [39m[1m[2m 99.61 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury9-ivExCRbc.jpeg       [39m[1m[2m100.13 kB[22m[1m[22m
+[2mdist/[22m[32massets/symphony4-BKjIvQw5.webp            [39m[1m[2m100.18 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon10-DDrsWryR.jpeg             [39m[1m[2m100.72 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin15-DKeKhlVw.jpeg           [39m[1m[2m100.91 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury14-LfwB08Yo.jpeg   [39m[1m[2m100.92 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand15-ginckXdx.jpeg    [39m[1m[2m101.40 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury10-DqHplNYa.jpeg   [39m[1m[2m101.93 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil13-n1kugf_Y.jpeg       [39m[1m[2m102.27 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand10-CyqqhxPL.jpeg    [39m[1m[2m102.52 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel5-DV_lNRnD.jpeg             [39m[1m[2m102.53 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon3-DMTrL3rv.jpeg              [39m[1m[2m103.18 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon9-C9XF1zB9.jpeg              [39m[1m[2m103.36 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil30-Hohf2qm9.jpeg       [39m[1m[2m103.54 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury21-BaZfxY8R.jpeg      [39m[1m[2m103.84 kB[22m[1m[22m
+[2mdist/[22m[32massets/diamon1-C1NRY_xS.webp              [39m[1m[2m103.88 kB[22m[1m[22m
+[2mdist/[22m[32massets/era3-CGtskeP5.jpeg                 [39m[1m[2m103.89 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte12-kpJ1TTnB.jpeg                [39m[1m[2m104.04 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand18-av3VcmmF.jpeg    [39m[1m[2m104.18 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin3-CluGwEbX.jpeg            [39m[1m[2m104.28 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel12-BkENU9jz.jpeg            [39m[1m[2m104.40 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh4-Lgf14evp.jpeg          [39m[1m[2m104.56 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc16-BzjexfUU.jpeg            [39m[1m[2m104.61 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon1-Bc-nmF29.jpeg              [39m[1m[2m105.09 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc5-CKZKHpwD.jpeg             [39m[1m[2m105.21 kB[22m[1m[22m
+[2mdist/[22m[32massets/diamon2-DV-Ce5G5.webp              [39m[1m[2m105.46 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury14-1vGMECdh.jpeg      [39m[1m[2m106.41 kB[22m[1m[22m
+[2mdist/[22m[32massets/gthanh2-BxJ9pB4O.jpeg              [39m[1m[2m106.53 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil11-PBv9FGjr.jpeg       [39m[1m[2m107.24 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc7-4ytDL02g.jpeg             [39m[1m[2m107.77 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte16-B16vjZ2g.jpeg                [39m[1m[2m107.89 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon5-DUM_NHap.jpeg              [39m[1m[2m108.22 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc11-BijmiANn.jpeg            [39m[1m[2m108.55 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin7-BxR961rc.jpeg            [39m[1m[2m108.84 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc3-C7VuzR2u.jpeg             [39m[1m[2m109.27 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury32-94yEjMCR.jpeg      [39m[1m[2m109.65 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte4-BK0kIHd8.jpeg                 [39m[1m[2m109.96 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand13-VsCNt2yj.jpeg    [39m[1m[2m110.10 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon6-D2i4VcrV.jpeg              [39m[1m[2m110.22 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtmirthrin-DD0KFjGZ.jpeg          [39m[1m[2m110.27 kB[22m[1m[22m
+[2mdist/[22m[32massets/era15-DpskE2of.jpeg                [39m[1m[2m111.02 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh14-CcWMUsXQ.jpeg         [39m[1m[2m111.55 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtwynhamsoleil-D5CDjxEy.jpeg      [39m[1m[2m111.72 kB[22m[1m[22m
+[2mdist/[22m[32massets/era16-FtjMTEVV.jpeg                [39m[1m[2m111.76 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin6-Dq0vsOPT.jpeg            [39m[1m[2m112.43 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury30-BfebHotl.jpeg      [39m[1m[2m112.80 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte5-Di0qIL8W.jpeg                 [39m[1m[2m113.11 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc6-DE2YWRW2.jpeg             [39m[1m[2m113.40 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin18-BYK4kBgr.jpeg           [39m[1m[2m113.61 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel14-CSH6G2PG.jpeg            [39m[1m[2m113.87 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand22-Czccibi5.jpeg    [39m[1m[2m114.31 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc4-DVIde-M9.jpeg             [39m[1m[2m114.54 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury11-C2QjLbg4.jpeg   [39m[1m[2m115.25 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury17-B56aXASb.jpeg   [39m[1m[2m115.32 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtmuongthanhluxury-3-plOZHU.jpeg  [39m[1m[2m115.38 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury13-BxcYCLkQ.jpeg   [39m[1m[2m115.38 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte6-uxQTcp-s.jpeg                 [39m[1m[2m116.22 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc15-BmIXENRU.jpeg            [39m[1m[2m116.41 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand4-BK2ohSV5.jpeg     [39m[1m[2m117.16 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin14-nHQ_zSm3.jpeg           [39m[1m[2m117.26 kB[22m[1m[22m
+[2mdist/[22m[32massets/mirthrin1-BCfH0Qm1.jpeg            [39m[1m[2m117.66 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte18-CYPb40yk.jpeg                [39m[1m[2m117.78 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel1-CZrS2VuD.jpeg             [39m[1m[2m117.86 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil10-BrSvwYch.jpeg       [39m[1m[2m119.13 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc18-Dqnuyh5Q.jpeg            [39m[1m[2m119.43 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury4-DiRUvCau.jpeg    [39m[1m[2m120.18 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil27-BgcwKaMb.jpeg       [39m[1m[2m121.75 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury12-D6sQ2_0F.jpeg      [39m[1m[2m121.83 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury2-B8WfqPKg.jpeg       [39m[1m[2m122.98 kB[22m[1m[22m
+[2mdist/[22m[32massets/era4-Cacjn1bi.jpeg                 [39m[1m[2m123.12 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury7-CykQzWf7.jpeg    [39m[1m[2m123.65 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon2-BKtAnxl1.jpeg              [39m[1m[2m123.87 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh13-CZcD7jgM.jpeg         [39m[1m[2m123.88 kB[22m[1m[22m
+[2mdist/[22m[32massets/dragon8-D7JtoAMo.jpeg              [39m[1m[2m124.23 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury19-D_1h6Umb.jpeg   [39m[1m[2m126.60 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtmuongthanhgrand-_ELvM243.jpeg   [39m[1m[2m128.25 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury15-BEbOHGoM.jpeg   [39m[1m[2m128.93 kB[22m[1m[22m
+[2mdist/[22m[32massets/songloc9-uvRi7Jv2.jpeg             [39m[1m[2m129.20 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte17-DLDOU0Cp.jpeg                [39m[1m[2m129.51 kB[22m[1m[22m
+[2mdist/[22m[32massets/ambrasador3-CRy95K8H.webp          [39m[1m[2m130.99 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtmuongthanh-C5vB4DXv.jpeg        [39m[1m[2m131.94 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil14-Dhl7mLX0.jpeg       [39m[1m[2m132.12 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand23-Dc6fX1a7.jpeg    [39m[1m[2m132.18 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury31-CvhkC9md.jpeg      [39m[1m[2m133.30 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil5-FOsIbwbG.jpeg        [39m[1m[2m135.22 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand3-DLHFSZLT.jpeg     [39m[1m[2m135.56 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil15-CvlPnEX0.jpeg       [39m[1m[2m136.07 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil4-zoSNIOkL.jpeg        [39m[1m[2m137.27 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil12-EWZrnTCB.jpeg       [39m[1m[2m137.75 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury8-CZN9e5nK.jpeg       [39m[1m[2m137.87 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury6-DHDBBo8a.jpeg       [39m[1m[2m139.26 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh10-BdwtkdUc.jpeg         [39m[1m[2m139.31 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil2-BxadZ28F.jpeg        [39m[1m[2m139.71 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand6-CTDYp9aY.jpeg     [39m[1m[2m140.92 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand9-anCrgedh.jpeg     [39m[1m[2m142.06 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury3-D63oXGr4.jpeg    [39m[1m[2m142.20 kB[22m[1m[22m
+[2mdist/[22m[32massets/danitel13-D1uk1VMp.jpeg            [39m[1m[2m145.37 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte15-DKiq9lVU.jpeg                [39m[1m[2m145.74 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand20-Df7DVtAY.jpeg    [39m[1m[2m147.23 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh7-4iDloDQF.jpeg          [39m[1m[2m147.75 kB[22m[1m[22m
+[2mdist/[22m[32massets/saquila2-Dbsv1nIp.webp             [39m[1m[2m148.99 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand19-BvhrAgLS.jpeg    [39m[1m[2m149.16 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury35-DLyB658L.jpeg      [39m[1m[2m149.45 kB[22m[1m[22m
+[2mdist/[22m[32massets/wynhamsoleil26-CrbUZ539.jpeg       [39m[1m[2m152.25 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtdanitel-D3AXVL-X.jpeg           [39m[1m[2m152.66 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand21-FD5VkzQo.jpeg    [39m[1m[2m153.33 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhgrand7-C2RvTQ_3.jpeg     [39m[1m[2m154.16 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh3-CxR_9jqV.jpeg          [39m[1m[2m156.80 kB[22m[1m[22m
+[2mdist/[22m[32massets/fte1-DoDWNMaN.jpeg                 [39m[1m[2m160.01 kB[22m[1m[22m
+[2mdist/[22m[32massets/avtsaquila-B0u6ljJv.webp           [39m[1m[2m174.07 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanhluxury6-BRNPn891.jpeg    [39m[1m[2m174.50 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury4-EJE0zIl6.jpeg       [39m[1m[2m177.19 kB[22m[1m[22m
+[2mdist/[22m[32massets/muongthanh6-ewd5OYJa.jpeg          [39m[1m[2m177.79 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury7-boJlgKZs.jpeg       [39m[1m[2m180.04 kB[22m[1m[22m
+[2mdist/[22m[32massets/centralluxury34-ChVVfday.jpeg      [39m[1m[2m187.40 kB[22m[1m[22m
+[2mdist/[22m[32massets/monan2-CanCcYty.webp               [39m[1m[2m250.49 kB[22m[1m[22m
+[2mdist/[22m[32massets/monan1-DKjZIrJf.webp               [39m[1m[2m261.57 kB[22m[1m[22m
+[2mdist/[22m[32massets/vongquaymattroi-Dq715zMU.webp      [39m[1m[2m288.17 kB[22m[1m[22m
+[2mdist/[22m[32massets/image1-yfCEV1KS.png                [39m[1m[2m314.08 kB[22m[1m[22m
+[2mdist/[22m[32massets/nhahang1-CwDRepJ5.webp             [39m[1m[2m325.44 kB[22m[1m[22m
+[2mdist/[22m[32massets/nhahang2-zAdPmYHK.webp             [39m[1m[2m334.91 kB[22m[1m[22m
+[2mdist/[22m[32massets/duthuyen2-jtz5jR2n.webp            [39m[1m[2m341.83 kB[22m[1m[22m
+[2mdist/[22m[32massets/daohalong-B7kVQUZX.webp            [39m[1m[2m350.51 kB[22m[1m[22m
+[2mdist/[22m[32massets/cau-halong-ShAlQz2x.webp           [39m[1m[2m359.83 kB[22m[1m[22m
+[2mdist/[22m[32massets/hero-halong-BOP5SvQg.webp          [39m[1m[2m409.55 kB[22m[1m[22m
+[2mdist/[22m[32massets/monantrentau-BKljX5_9.webp         [39m[1m[2m428.05 kB[22m[1m[22m
+[2mdist/[22m[32massets/background-B_2r8Pdw.webp           [39m[1m[2m450.64 kB[22m[1m[22m
+[2mdist/[22m[32massets/nhahang-DCLLEjoa.webp              [39m[1m[2m591.32 kB[22m[1m[22m
+[2mdist/[22m[32massets/image2-zmLRehF3.png                [39m[1m[2m992.17 kB[22m[1m[22m
+[2mdist/[22m[35massets/index-BQ8F8zKV.css                 [39m[1m[2m 80.74 kB[22m[1m[22m[2m │ gzip:  13.86 kB[22m
+[2mdist/[22m[36massets/index-CoAAUEiU.js                  [39m[1m[33m661.63 kB[39m[22m[2m │ gzip: 202.85 kB[22m
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32m✓ built in 5.44s[39m

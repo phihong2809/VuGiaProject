@@ -1,56 +1,55 @@
 import { motion } from 'framer-motion';
-import { Shield, HeartHandshake, BadgeDollarSign, Headphones } from 'lucide-react';
+import { BadgeDollarSign, Headphones, HeartHandshake, Shield } from 'lucide-react';
 
 const reasons = [
   {
     icon: Shield,
-    title: 'An Toàn & Uy Tín',
-    description: 'Được cấp phép hoạt động, bảo hiểm du lịch toàn diện cho mọi chuyến đi.',
+    title: 'An toàn & minh bạch',
+    description: 'Thông tin dịch vụ, giá bán và điều kiện đặt được trình bày rõ ràng trước khi chốt.',
   },
   {
     icon: BadgeDollarSign,
-    title: 'Giá Tốt Nhất',
-    description: 'Cam kết giá cạnh tranh nhất thị trường, hoàn tiền nếu tìm thấy giá rẻ hơn.',
+    title: 'Giá hợp lý',
+    description: 'Luôn ưu tiên phương án phù hợp ngân sách, dễ so sánh và dễ chọn nhanh.',
   },
   {
     icon: HeartHandshake,
-    title: 'Dịch Vụ Tận Tâm',
-    description: 'Đội ngũ hướng dẫn viên chuyên nghiệp, nhiệt tình và giàu kinh nghiệm.',
+    title: 'Tư vấn tận tâm',
+    description: 'Đội ngũ hỗ trợ nhiệt tình, bám sát nhu cầu thực tế của từng nhóm khách.',
   },
   {
     icon: Headphones,
-    title: 'Hỗ Trợ 24/7',
-    description: 'Đường dây nóng hoạt động 24/7, sẵn sàng hỗ trợ bạn mọi lúc mọi nơi.',
+    title: 'Hỗ trợ 24/7',
+    description: 'Phản hồi nhanh qua hotline, Zalo và các kênh mạng xã hội khi bạn cần.',
   },
 ];
 
 const WhyChoose = () => (
   <section className="section-padding">
     <div className="container mx-auto">
-      <div className="text-center mb-12">
-        <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-          Tại Sao Chọn VuGiaTravel?
-        </h2>
-        <p className="text-muted-foreground max-w-xl mx-auto">
-          Hơn 10 năm kinh nghiệm phục vụ hàng chục ngàn khách hàng hài lòng
+      <div className="mb-12 text-center">
+        <h2 className="mb-4 font-display text-3xl font-bold text-foreground md:text-4xl">Vì sao nên chọn VuGiaTravel?</h2>
+        <p className="mx-auto max-w-2xl text-muted-foreground">
+          Chúng tôi tập trung vào trải nghiệm đặt dịch vụ gọn gàng, rõ thông tin và hỗ trợ nhanh để bạn yên tâm hơn khi lựa chọn.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {reasons.map((r, i) => (
+
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {reasons.map((reason, index) => (
           <motion.div
-            key={r.title}
+            key={reason.title}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: i * 0.1 }}
-            className="bg-card rounded-xl p-6 text-center border border-border hover:border-primary/30 transition-all group"
+            transition={{ delay: index * 0.08 }}
+            className="group rounded-2xl border border-slate-200 bg-white p-6 text-center transition-all hover:-translate-y-1 hover:border-primary/30"
             style={{ boxShadow: 'var(--shadow-card)' }}
           >
-            <div className="w-14 h-14 bg-accent rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/10 transition-colors">
-              <r.icon className="w-7 h-7 text-primary" />
+            <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-accent transition-colors group-hover:bg-primary/10">
+              <reason.icon className="h-7 w-7 text-primary" />
             </div>
-            <h3 className="font-display font-semibold text-foreground text-lg mb-2">{r.title}</h3>
-            <p className="text-muted-foreground text-sm">{r.description}</p>
+            <h3 className="mb-2 text-lg font-semibold text-foreground">{reason.title}</h3>
+            <p className="text-sm leading-relaxed text-muted-foreground">{reason.description}</p>
           </motion.div>
         ))}
       </div>
