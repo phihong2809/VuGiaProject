@@ -49,11 +49,11 @@ const Footer = () => {
           <div>
             <h4 className="mb-4 font-semibold text-white">Liên hệ</h4>
             <div className="space-y-3 text-sm text-slate-300">
-              <a href="tel:0968267791" className="flex items-center gap-2 transition hover:text-emerald-300">
-                <Phone className="h-4 w-4" /> 0968 267 791
+              <a href="tel:0345519525" className="flex items-center gap-2 transition hover:text-emerald-300">
+                <Phone className="h-4 w-4" /> 0345 519 525
               </a>
-              <a href="mailto:vugiatravel2024@gmail.com" className="flex items-center gap-2 transition hover:text-emerald-300">
-                <Mail className="h-4 w-4" /> vugiatravel2024@gmail.com
+              <a href="mailto:vugiatravell@gmail.com" className="flex items-center gap-2 transition hover:text-emerald-300">
+                <Mail className="h-4 w-4" /> vugiatravell@gmail.com
               </a>
               <div>Căn Ha10-5 Khu Little Việt Nam, Phường Bãi Cháy, Quảng Ninh</div>
             </div>
@@ -65,7 +65,7 @@ const Footer = () => {
               <a href="https://www.tiktok.com/@vugiatravel" target="_blank" rel="noopener noreferrer" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 transition hover:bg-emerald-500 hover:text-white">
                 <FaTiktok className="h-4 w-4" />
               </a>
-              <a href="https://zalo.me/0968267791" target="_blank" rel="noopener noreferrer" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 transition hover:bg-emerald-500 hover:text-white">
+              <a href="https://zalo.me/0345519525" target="_blank" rel="noopener noreferrer" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 transition hover:bg-emerald-500 hover:text-white">
                 <MessageCircle className="h-4 w-4" />
               </a>
             </div>

@@ -33,7 +33,7 @@ const PromoBanner = () => {
               <p className="mb-3 text-sm leading-relaxed text-muted-foreground">
                 Nhắn Zalo để được tư vấn tour, du thuyền hoặc khách sạn phù hợp ngân sách của bạn.
               </p>
-              <a href="https://zalo.me/0968267791" target="_blank" rel="noopener noreferrer" className="btn-primary rounded-full px-4 py-2 text-sm">
+              <a href="https://zalo.me/0345519525" target="_blank" rel="noopener noreferrer" className="btn-primary rounded-full px-4 py-2 text-sm">
                 <MessageCircle className="mr-2 h-4 w-4" /> Nhắn Zalo ngay
               </a>
             </div>

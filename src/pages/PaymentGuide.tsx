@@ -92,8 +92,8 @@ const PaymentGuide = () => {
             </p>
             <ul className="list-none">
               <li>Email: info@vugiatravel.vn</li>
-              <li>Điện thoại: 0968 267 791</li>
-              <li>Zalo: <a href="https://zalo.me/0968267791" className="text-primary hover:underline">0968 267 791</a></li>
+              <li>Điện thoại: 0345 519 525</li>
+              <li>Zalo: <a href="https://zalo.me/0345519525" className="text-primary hover:underline">0345 519 525</a></li>
             </ul>
           </div>
         </div>

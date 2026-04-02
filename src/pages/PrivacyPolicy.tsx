@@ -72,7 +72,7 @@ const PrivacyPolicy = () => {
               <p className="font-semibold text-lg mb-2">CÔNG TY TNHH VŨ GIA TRAVEL</p>
               <ul className="list-none space-y-1">
                 <li><strong>Hotline:</strong> 0968 267 791</li>
-                <li><strong>Email:</strong> vugiatravel2024@gmail.com</li>
+                <li><strong>Email:</strong> vugiatravell@gmail.com</li>
                 <li><strong>Website:</strong> www.vugiatravel.vn</li>
                 <li><strong>Địa chỉ:</strong> HA10-5, Khu Little Bãi Cháy, Hạ Long, Quảng Ninh, Việt Nam</li>
               </ul>

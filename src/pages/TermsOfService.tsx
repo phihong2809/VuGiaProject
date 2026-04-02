@@ -81,7 +81,7 @@ const TermsOfService = () => {
             </p>
             <ul className="list-none">
               <li>Email: info@vugiatravel.vn</li>
-              <li>Điện thoại: 0968 267 791</li>
+              <li>Điện thoại: 0345 519 525</li>
             </ul>
           </div>
         </div>

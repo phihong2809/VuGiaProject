@@ -5,8 +5,8 @@ import { FaTiktok } from 'react-icons/fa';
 import { toast } from 'sonner';
 
 const quickActions = [
-  { icon: Phone, label: 'Gọi hotline', value: '0968 267 791', href: 'tel:0968267791' },
-  { icon: MessageCircle, label: 'Nhắn Zalo', value: 'Tư vấn ngay', href: 'https://zalo.me/0968267791', external: true },
+  { icon: Phone, label: 'Gọi hotline', value: '0968 267 791', href: 'tel:0345519525' },
+  { icon: MessageCircle, label: 'Nhắn Zalo', value: 'Tư vấn ngay', href: 'https://zalo.me/0345519525', external: true },
   { icon: FaTiktok, label: 'TikTok', value: '@vugiatravel', href: 'https://www.tiktok.com/@vugiatravel', external: true },
   {
     icon: Facebook,
@@ -29,7 +29,7 @@ const Contact = () => {
       toast.success('Gửi yêu cầu thành công! Chúng tôi sẽ liên hệ bạn sớm nhất.');
       setForm({ name: '', phone: '', email: '', destination: '', message: '' });
       setSending(false);
-      window.open('https://zalo.me/0968267791', '_blank');
+      window.open('https://zalo.me/0345519525', '_blank');
     }, 1000);
   };
 
@@ -73,7 +73,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Hotline</div>
-                    <a href="tel:0968267791" className="font-semibold text-foreground hover:text-primary">0968 267 791</a>
+                    <a href="tel:0345519525" className="font-semibold text-foreground hover:text-primary">0345 519 525</a>
                   </div>
                 </div>
 
@@ -83,7 +83,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Email</div>
-                    <a href="mailto:vugiatravel2024@gmail.com" className="font-semibold text-foreground hover:text-primary">vugiatravel2024@gmail.com</a>
+                    <a href="mailto:vugiatravell@gmail.com" className="font-semibold text-foreground hover:text-primary">vugiatravell@gmail.com</a>
                   </div>
                 </div>
 

@@ -230,7 +230,7 @@ const CruiseDetail = () => {
                 <p className="mb-2">Liên hệ tư vấn viên qua Zalo:</p>
                 <div className="space-y-1">
                   <a href="https://zalo.me/0972223394" className="block text-primary hover:underline">Tư vấn viên Tân: 0972 223 394</a>
-                  <a href="https://zalo.me/0968267791" className="block text-primary hover:underline">Tư vấn viên Hoài Nam: 0968 267 791</a>
+                  <a href="https://zalo.me/0345519525" className="block text-primary hover:underline">Tư vấn viên Hoài Nam: 0968 267 791</a>
                   <a href="https://zalo.me/0345519505" className="block text-primary hover:underline">Tư vấn viên Hoàng Anh: 0345 519 505</a>
                   <a href="https://zalo.me/0389056861" className="block text-primary hover:underline">Tư vấn viên Thọ Nguyễn: 0389 056 861</a>
                   <a href="https://zalo.me/0365226085" className="block text-primary hover:underline">Tư vấn viên Thành Đương: 0365 226 085</a>
